@@ -1,9 +1,193 @@
+body{
+    font-family: 'Roboto', sans-serif;
+}
 h1{
     text-align: center;
-    color: rgb(255, 0, 0);
-
+    color: #120f0f;
+    font-size:40px ;
+    font-weight: 900;
+    justify-content: center;
 }
 p{
     text-align: center;
-    font-size: 30px;
+    color: #8f8e8e;
+    font: size 8px;
+    font-weight:300;
+    justify-content: center;
+}
+.container{
+    width: 1024px;
+    margin: 0 auto;
+    margin-top: 100px;
+}
+button{
+    background-color: coral;
+    padding: 15px 20px;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    font-size: 16px;
+}
+header{
+    height: 600px;
+    width: 100%;
+    background-image:linear-gradient(rgba(0,0,0,0.01),rgba(0,0,0,0.7)), url(images/donation4.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+   
+}
+.header_area {
+color: #ffffff;
+margin: 0 auto;
+justify-content: center;
+align-items: center;
+text-align: center;
+padding-top: 100px;
+}
+.header_area p{
+ color: #ffffff;
+}
+.header_area h2{
+ color: #ffffff;
+ font-size: 50px;
+ font-weight: 900;
+}
+.donate_amount{
+    display: flex;
+    justify-content: center;
+}
+.donate_amount ul li{
+    display: flex;
+    display: inline-block;
+    background: rgb(233, 232, 229);
+    padding: 35px;
+    margin-right: 15px;
+    font-weight: 900;
+    font-size: 24px;
+    color: #a8a1a1;
+}
+.donate_amount ul li:hover{
+    border: 2px solid rgb(244, 121, 100);
+    background-color: rgb(229, 176, 156);
+    color: tomato;
+}
+.donate_button{
+    text-align: center;
+    margin-top: 20px;
+}
+hr{
+    width: 800px;
+    margin: 0 auto;
+    text-align: center;
+}
+.plan_div{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 20px;
+  
+}
+.plan_div h4{
+        color: #120f0f;
+        font-size:20px ;
+        font-weight: 900;        
+}
+.plan_div span{
+    color: #8f8e8e;
+    font: size 8px;
+    font-weight:300;
+    justify-content: center;
+}
+
+.plan_1div{
+    background-color: antiquewhite;
+    width: 300px;
+    height: auto;
+    border-radius: 3px;
+}
+.plan_2div{
+    background-color: rgb(163, 201, 179);
+    width: 300px;
+    height: auto;
+    border-radius: 3px;
+}
+.plan_3div{
+    background-color: rgb(234, 219, 149);
+    width: 300px;
+    height: auto;
+    border-radius: 3px;
+}
+.plan_1div img{
+    margin-top: 40px;
+    margin-left: 20px;
+
+}
+.plan_2div img{
+    margin-top: 40px;
+    margin-left: 20px;
+
+}
+.plan_3div img{
+    margin-top: 40px;
+    margin-left: 20px;
+
+}
+.plan_1{
+    padding: 20px;
+}
+.contac_page{
+    width: 600px;
+}
+.contact_form input{
+    padding: 10px;
+    border-radius: 5px;
+    width: 220px;
+    
+    background-color: rgb(234, 228, 228);
+}
+.contact_form textarea{
+    height: 100px;
+    width: 505px;
+    border-radius: 5px;
+    margin-top: 20px;
+}
+.contact_button {
+    margin-top: 30px;
+}
+.update_{
+    text-align: center;
+    margin: 0 auto;
+    height: 200px;
+    width: 700px;
+    background-color: blanchedalmond;
+}
+.update_ input{
+   border: none;
+   background: rgb(246, 232, 232);
+   padding: 12px;
+   width: 200px;
+   border-radius: 2px;
+}
+.update_ button{
+    padding: 9px;
+    margin-left: -5px;
+}
+.subscribe_button{
+   padding-top:85px;
+
+}
+footer{
+    height: 200px;
+    width: 100%;
+    background-color: #0d0c0c;
+    text-align: center;
+}
+
+footer h1{
+    color: tomato;
+    padding-top: 50px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+footer p{
+    color: #a8a1a1;
 }
