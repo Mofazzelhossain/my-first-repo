@@ -41,9 +41,14 @@ header{
 color: #ffffff;
 margin: 0 auto;
 justify-content: center;
-align-items: center;
+display: flex;
+flex-direction: column;
 text-align: center;
-padding-top: 100px;
+height: 600px;
+justify-content: center;
+align-items: center;
+
+
 }
 .header_area p{
  color: #ffffff;
